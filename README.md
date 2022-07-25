@@ -10,6 +10,8 @@ Tutoriais usados como apoio:
 
 ## Aplicativo
 
+### Telas
+
 <table>
     <tr>
         <td>
@@ -40,3 +42,15 @@ Tutoriais usados como apoio:
         </td>
     </tr>
 </table>
+
+### Uso
+
+![Usando aplicativo](.github/gif/Demonstration.gif)
+
+### Próximos passo:
+
+1. Melhorar função de operação
+2. Colocar um label para mostrar a operação
+3. Regra para não exibir o decimal quando for só inteiro
+4. Fazer o AC virar C quando já tem o primeiro número
+5. Testes
