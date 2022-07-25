@@ -13,16 +13,16 @@ Tutoriais usados como apoio:
 <table>
     <tr>
         <td>
-            <img src=".github/Home_Screen.png" alt="Tela Inicial" height="400px" style="margin-left:10px" />
+            <img src=".github/images/Home_Screen.png" alt="Tela Inicial" height="400px" style="margin-left:10px" />
         </td>
         <td>
-            <img src=".github/Positive_Value.png" alt="Valor positivo" height="400px" style="margin-left:10px" />
+            <img src=".github/images/Positive_Value.png" alt="Valor positivo" height="400px" style="margin-left:10px" />
         </td>
         <td>
-            <img src=".github/Negative_Value.png" alt="Valor negativo" height="400px" style="margin-left:10px" />
+            <img src=".github/images/Negative_Value.png" alt="Valor negativo" height="400px" style="margin-left:10px" />
         </td>
         <td>
-            <img src=".github/Decimal_Value.png" alt="Valor decimal" height="400px" style="margin-left:10px" />
+            <img src=".github/images/Decimal_Value.png" alt="Valor decimal" height="400px" style="margin-left:10px" />
         </td>
     </tr>
     <tr>
