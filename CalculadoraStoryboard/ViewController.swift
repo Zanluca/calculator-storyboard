@@ -52,40 +52,38 @@ class ViewController: UIViewController {
         
         if tag == 1 { // equals
             if let operation = currentOperations {
-                var secondNumber = 0.0
-                if let text = resultLabel.text, let value = Double(text) {
-                        secondNumber = value
-                    }
+                if let text = resultLabel.text, let secondNumber = Double(text) {
                     
-                    switch operation {
-                    case .add:
-                        firstNumber = firstNumber + secondNumber
-                        secondNumber = 0
-                        resultLabel.text = "\(firstNumber)"
-                        currentOperations = nil
-                        firstNumber = 0
-                        break
-                    case .subtract:
-                        firstNumber = firstNumber - secondNumber
-                        secondNumber = 0
-                        resultLabel.text = "\(firstNumber)"
-                        currentOperations = nil
-                        firstNumber = 0
-                        break
-                    case .multiply:
-                        firstNumber = firstNumber * secondNumber
-                        secondNumber = 0
-                        resultLabel.text = "\(firstNumber)"
-                        currentOperations = nil
-                        firstNumber = 0
-                        break
-                    case .divide:
-                        firstNumber = firstNumber / secondNumber
-                        secondNumber = 0
-                        resultLabel.text = "\(firstNumber)"
-                        currentOperations = nil
-                        firstNumber = 0
-                        break
+                        switch operation {
+                        case .add:
+                            firstNumber = firstNumber + secondNumber
+                            resultLabel.text = "\(firstNumber)"
+                            currentOperations = nil
+                            firstNumber = 0
+                            break
+                        case .subtract:
+                            firstNumber = firstNumber - secondNumber
+                            resultLabel.text = "\(firstNumber)"
+                            currentOperations = nil
+                            firstNumber = 0
+                            break
+                        case .multiply:
+                            firstNumber = firstNumber * secondNumber
+                            resultLabel.text = "\(firstNumber)"
+                            currentOperations = nil
+                            firstNumber = 0
+                            break
+                        case .divide:
+                            if secondNumber == 0 {
+                                return
+                            }
+                            
+                            firstNumber = firstNumber / secondNumber
+                            resultLabel.text = "\(firstNumber)"
+                            currentOperations = nil
+                            firstNumber = 0
+                            break
+                    }
                 }
             }
         } else if tag == 2 {
