@@ -8,6 +8,10 @@ Tutoriais usados como apoio:
 
 [Como criar uma calculadora em Swift 5](https://tech-pt.netlify.app/articles/pt514108/index.html)
 
+[Curso iOS: Módulo sobre view code](https://medium.com/@tpLioy/curso-ios-m%C3%B3dulo-sobre-view-code-af0f6188297b)
+
+[View Code em Swift](https://medium.com/mackmobile/view-code-em-swift-6026f42bf780)
+
 ## Aplicativo
 
 ### Telas
